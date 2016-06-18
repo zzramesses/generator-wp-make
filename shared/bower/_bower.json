@@ -18,6 +18,9 @@
     "composer.json",
     "phpunit.xml.dist"
   ],
-  "devDependencies": {},
+   "devDependencies": {
+    "normalize-scss": "^3.0.3",
+    "foundation-sites": "^6.2.3"
+  },
   "keywords": []
 }
