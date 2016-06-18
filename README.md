@@ -15,7 +15,7 @@ $ npm install -g yo
 To install generator-wp-make clone this repository, enter the directory, and link it to npm:
 
 ```
-$ git clone git@github.com:10up/generator-wp-make.git && cd generator-wp-make
+$ git clone git@github.com:zzramesses/generator-wp-make.git && cd generator-wp-make
 $ npm link
 ```
 
@@ -35,31 +35,13 @@ For each project type you get:
 - Bower to manage front-end dependencies
 - NPM to manage development dependencies (like Grunt)
 - Grunt to streamline development
-- phpunit, paratest, and [WP_Mock](https://github.com/10up/wp_mock) for PHP unit testing
-- Mocha and Chai for JS unit testing
-- A fully-fleshed out, namespaced setup for WordPress plugin development
+- A fully-fleshed out, namespaced setup for WordPress Theme development
 
-### Plugin
-
-This subgenerator scaffolds out a standard WordPress plugin.
-
-The project even includes some basic unit test examples to help get you started!
 
 ### Theme
 
 This subgenerator scaffolds out a standard WordPress theme.
 
-The project even includes some basic unit test examples to help get you started!
-
-### Child Theme
-
-This subgenerator scaffolds out a standard WordPress child theme.
-
-The project even includes some basic unit test examples to help get you started!
-
-### Library
-
-This subgenerator scaffolds out a WordPress library. Libraries are a bit different from plugins in that they're meant to be included via Composer and embedded directly into a theme or a plugin.
 
 ## Profiles
 
